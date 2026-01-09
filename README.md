@@ -2,7 +2,7 @@
 
 Hi, guys. Dito ilalagay ang mga bagay-bagay.
 
-# -- ROLES -- 
+## ROLES 
 Daigo - Backend
 David - Overall Checker
 Guiriba - Frontend (UI/UX)
