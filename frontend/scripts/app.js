@@ -1,14 +1,44 @@
-// app.js
-
-// Initialize the application
-function init() {
-    console.log("Application initialized");
+// Updated from app.js draft
+// Function to set up the diagonalize button
+function setupDiagonalizeButton() {
+    const btn = document.getElementById("diagonalizebtn");
+    if (btn) {
+        console.log("Button found, attaching event listener");
+        btn.addEventListener("click", function() {
+            console.log("Button clicked, calling Python function");
+            // Call the Python diagonalize function if it's available
+            if (window.diagonalize_clicked) {
+                window.diagonalize_clicked();
+            } else {
+                console.error("Python function not available yet");
+                document.getElementById("output").innerHTML = "<p style='color: red;'>Error: Python engine not ready. Please refresh the page.</p>";
+            }
+        });
+    } else {
+        console.error("Button not found");
+    }
 }
 
-// Example function
-function exampleFunction() {
-    console.log("This is an example function");
+// Wait for PyScript and DOM to be fully loaded
+function waitForPyScript() {
+    // Check if window.diagonalize_clicked exists (set by PyScript)
+    if (window.diagonalize_clicked) {
+        console.log("PyScript loaded, setting up button");
+        setupDiagonalizeButton();
+    } else {
+        // Try again in 100ms
+        setTimeout(waitForPyScript, 100);
+    }
 }
 
-// Event listener for DOMContentLoaded
-document.addEventListener("DOMContentLoaded", init);
+// Start waiting when DOM is ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() {
+        console.log("DOM loaded, waiting for PyScript");
+        setTimeout(waitForPyScript, 500); // Give PyScript time to initialize
+    });
+} else {
+    // DOM already loaded
+    console.log("DOM already loaded, waiting for PyScript");
+    setTimeout(waitForPyScript, 500);
+}
