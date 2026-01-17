@@ -21,7 +21,7 @@ This technique is essential for:
 * Computing matrix powers
 * Understanding the behavior of linear systems
 
-# AUTODIAG SITE HOME PAGE PAGE OVERVIEW
+# AUTODIAG SITE HOME PAGE
  ![Matrix Diagonalization Diagonal Page](assets/landingPage.gif)
 
 ---
