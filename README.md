@@ -21,53 +21,12 @@ This technique is essential for:
 * Computing matrix powers
 * Understanding the behavior of linear systems
 
-<details>
-<summary>Click to expand</summary>
-
-# AUTODIAG SITE OVERVIEW
-
-### Home Page
-![Matrix Diagonalization Home Page](assets/landingPage.gif)
-> Shows the overview and what to expect on the site.
-
-### Diagonalization Page
-![Matrix Diagonalization Diagonal Page](assets/landingPage.gif)
-> The main page responsible for all the diagonalization.
-
-<details>
- <summary>Matrix Size Selection</summary>
- 
+# AUTODIAG SITE HOME PAGE PAGE OVERVIEW
  ![Matrix Diagonalization Diagonal Page](assets/landingPage.gif)
-</details>
-
-<details>
- <summary>Inputting Values</summary>
- 
- ![Matrix Diagonalization Diagonal Page](assets/landingPage.gif)
-</details>
-
-<details>
- <summary>Show Results</summary>
- 
- ![Matrix Diagonalization Diagonal Page](assets/landingPage.gif)
-</details>
-
-<details>
- <summary>Error Handler</summary>
- 
- ![Matrix Diagonalization Diagonal Page](assets/landingPage.gif)
-</details>
-
-### Aout Us Page
-![Matrix Diagonalization Diagonal Page](assets/landingPage.gif)
-
-
-</details>
-
 
 ---
 
-# **TOOLS USED**
+# **LANGUAGE USED**
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge\&logo=python\&logoColor=ffdd54)
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
