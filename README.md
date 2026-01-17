@@ -10,11 +10,11 @@ Build a program/application that accepts an n-by-n matrix A, where n ≤ 5, and 
 
 
 ## ROLES 
-[David](https://www.facebook.com/lornadaviid) - Overall Project Manager
+[David](https://www.facebook.com/lornadaviid) - Overall Project Manager\
 [Guiriba](https://www.facebook.com/ronkris.guiriba) - Frontend (UI/UX)\
 [Valerio](https://www.facebook.com/lv.ruki21) - Frontend (Functionality)\
 [Daigo](https://www.facebook.com/khalil.daigo) - Backend\
-[Lallego](https://www.facebook.com/jm.lallego) - Quality Assurance\
+[Lallego](https://www.facebook.com/jm.lallego) - Quality Assurance
 
 
 ### GOOD LUCK SA ATIN!
