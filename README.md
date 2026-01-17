@@ -45,7 +45,4 @@ This technique is essential for:
 | [Daigo](https://www.facebook.com/khalil.daigo)      | Backend                  |
 | [Lallego](https://www.facebook.com/jm.lallego)      | Quality Assurance        |
 
----
-
-### **GOOD LUCK SA ATIN! 🚀**
 
