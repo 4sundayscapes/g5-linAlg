@@ -10,7 +10,8 @@ import sympy as sp
 app = Flask(__name__)
 CORS(app)  # allow frontend JS fetch
 
-@app.route("/matrix", methods=["POST"]) # What Flask URL Javascript sends to and the method.
+@app.route("/", methods=["POST"]) # What Flask URL Javascript sends to and the method.
+@app.route("/matrix", methods=["POST"]) # Alternative route
 def diagonalize_clicked():
     try:
         # Get input
@@ -77,3 +78,4 @@ def diagonalize_clicked():
 # Only used for current setup
 if __name__ == "__main__":
     app.run(debug=True)
+    
