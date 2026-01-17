@@ -23,12 +23,16 @@ This technique is essential for:
 
 ---
 
-# <details>  AUTODIAG SITE </details>
+# <details>  AUTODIAG SITE 
+<summary>Click to expand</summary>
 **Home Page**
 - ![Matrix Diagonalization Demo](assets/landingPage.gif)
 
 **Diagonalization Page**
 - ![Matrix Diagonalization Demo](assets/landingPage.gif)
+
+</details>
+
 ---
 
 # **TOOLS USED**
