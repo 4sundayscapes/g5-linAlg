@@ -7,8 +7,6 @@ It provides the theoretical foundation for understanding matrix operations and t
 ---
 
 # **TASK: AUTOMATED MATRIX DIAGONALIZER**
-![Matrix Diagonalization Demo](assets/landingPage.gif)
-
 The goal of this project is to build an application that:
 * Accepts an **n × n matrix A** (where n ≤ 5)
 * Checks whether the matrix is **diagonalizable**
@@ -25,6 +23,13 @@ This technique is essential for:
 
 ---
 
+# <details>  AUTODIAG SITE </details>
+**Home Page**
+- ![Matrix Diagonalization Demo](assets/landingPage.gif)
+
+**Diagonalization Page**
+- ![Matrix Diagonalization Demo](assets/landingPage.gif)
+---
 
 # **TOOLS USED**
 ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge\&logo=python\&logoColor=ffdd54)
